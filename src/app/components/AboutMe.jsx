@@ -69,11 +69,11 @@ const AboutMe = () => {
         });
     };
     return <section className="text-white ">
-        <div className ="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-            <Image src = "/images/gato.jpg" width = {500} height = {500} />
+        <div className ="md:grid md:grid-cols-2 gap-8 align-items-start py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+            <Image src = "/images/laptop.png" width = {600} height = {600} className="-mt-20" />
             <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-                <h2 className="text-4xl font-bold text-white mb-4">About me</h2>
-                <p className = "text-base lg:text-lg ">👋 Hey there! I'm Sohan, a third-year Computer Science student at Wilfrid Laurier University 
+                <h2 className="text-5xl font-bold text-white mb-4">About me</h2>
+                <p className = "text-[#4b6178] lg:text-lg">👋 Hey there! I'm Sohan, a third-year Computer Science student at Wilfrid Laurier University 
                         with a focus on Big Data Systems and UX Design. 
                         When I'm not coding or designing, you'll find me involved with MMA and other combat sports.
                         I specialize in full stack development and AI. I love working with data in order to analyze and create visualizations. Creating compelling stories out of a sheet of numbers is what I love most!
