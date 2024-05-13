@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <nav className="fixed mx-auto  border-custom-gradient top-0 left-0 right-0 z-10 bg-custom-gradient bg-opacity-100">
         <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
-        <img src="/images/LOGO.png" alt="Logo" className="h-3 md:h-10" />
+        <span className='cursive-text text-5xl text-[#bed9ff]' >sohan.tech</span>
         <div className = "mobile-menu block md:hidden">
             {
                 !navbarOpen ? (
