@@ -63,3 +63,17 @@ html, body {
   display: flex;
   align-items: center; /* This will vertically center the contents of the navbar */
 }
+@media (max-width: 640px) {
+  .text-center-on-phone {
+    text-align: center;
+  }
+
+  .justify-center-on-phone {
+    justify-content: center;
+  }
+
+  .mx-auto-on-phone {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
