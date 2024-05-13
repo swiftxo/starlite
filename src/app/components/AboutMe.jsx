@@ -5,16 +5,12 @@ import Image from "next/image";
 import TabButton from "./TabButton";
 import EducationTab from "./EducationTab";
 import ExperienceTab from "./CourseWorkTab";
-
+import TechTab from "./TechTab"
 const TAB_INFO = [
     {
         title: "Skills",
         id: "skills",
-        content: (
-            <div className="flex flex-wrap justify-start mx-3">
-                {/* Badges listed here */}
-            </div>
-        )
+        content:   <TechTab />
     },
     {
         title: "Education",
