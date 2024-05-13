@@ -1,7 +1,7 @@
                          
 <br/>
 <div align="center">
-<a href="https://github.com/ShaanCoding/ReadME-Generator">
+<a href="https://github.com/swiftxo/starlite">
 <img src="https://i.postimg.cc/sXrPQyts/LOGO.png" alt="Logo" width="80" height="80">
 </a>
 <h3 align="center">Starlite: Sohan's Portfolio Website</h3>
