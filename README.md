@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+                         
+<br/>
+<div align="center">
+<a href="https://github.com/ShaanCoding/ReadME-Generator">
+<img src="https://i.postimg.cc/sXrPQyts/LOGO.png" alt="Logo" width="80" height="80">
+</a>
+<h3 align="center">Starlite: Sohan's Portfolio Website</h3>
+<p align="center">
+Everything you need to know about the building process for this site!
+<br/>
+<br/>
+<a href="https://github.com/swiftxo/starlite/"><strong>Explore the docs »</strong></a>
+<br/>
+<br/>
+<a href="https://www.sohan.tech/">View Demo .</a>  
+<a href="https://github.com/swiftxo/starlite/issues/new?labels=bug&template=bug-report---.md">Report Bug .</a>
+<a href="https://github.com/swiftxo/starlite/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+</p>
+</div>
 
-## Getting Started
+ ## About The Project
 
-First, run the development server:
+![Product Screenshot](https://i.postimg.cc/DZxWvThC/portfolio.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Starlite is a sleek and modern portfolio project . Inspired by the atmospheric tones of the album "Vertigo" by EDEN, this website embodies a blend of minimalist design and vibrant colors.
+ ### Built With
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Next.JS](https://nextjs.org)
+- [React.JS](https://reactjs.org)
+- [Tailwind CSS](https://tailwindcss.com/)
+ ## Roadmap
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- [x] Add Changelog
+- [x] Add back to top links
+- [ ] Add different themes
+- [ ] Redirect futurebound blog
+- [ ] Custom cursor 
+- [ ] Animated background
+- [ ] Fix Contact Form
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+See the [open issues]() for a full list of proposed features (and known issues).
+ ## License
 
-## Learn More
+Distributed under the MIT License. See [MIT License](https://opensource.org/licenses/MIT) for more information.
+ ## Contact
 
-To learn more about Next.js, take a look at the following resources:
+Sohan Hossain - hoss1529@mylaurier.ca
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Project Link: [https://github.com/swiftxo/starlite](https://github.com/swiftxo/starlite)
