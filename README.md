@@ -38,7 +38,6 @@ Starlite is a sleek and modern portfolio project . Inspired by the atmospheric t
 - [ ] Animated background
 - [ ] Fix Contact Form
 
-See the [open issues]() for a full list of proposed features (and known issues).
  ## License
 
 Distributed under the MIT License. See [MIT License](https://opensource.org/licenses/MIT) for more information.
