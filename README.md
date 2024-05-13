@@ -2,7 +2,8 @@
 <br/>
 <div align="center">
 <a href="https://github.com/swiftxo/starlite">
-<img src="https://i.postimg.cc/sXrPQyts/LOGO.png" alt="Logo" width="80" height="80">
+<img src="https://i.ibb.co/qCNh7qW/image.png" alt="Product Screenshot">
+
 </a>
 <h3 align="center">Starlite: Sohan's Portfolio Website</h3>
 <p align="center">
@@ -19,8 +20,7 @@ Everything you need to know about the building process for this site!
 </div>
 
  ## About The Project
-
-![Product Screenshot](https://i.postimg.cc/DZxWvThC/portfolio.png)
+<img src= "https://i.postimg.cc/RSBwTSDz/portfolio.png" alt="Product Screenshot">
 
 Starlite is a sleek and modern portfolio project . Inspired by the atmospheric tones of the album "Vertigo" by EDEN, this website embodies a blend of minimalist design and vibrant colors.
  ### Built With
