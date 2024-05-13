@@ -1,10 +1,1 @@
-{
-    "type": "commonjs",
-    "eslintConfig": {
-      "extends": "next",
-      "rules": {
-        "react/no-unescaped-entities": "off"
-      }
-    }
-  }
-  
+{"type": "commonjs"}
