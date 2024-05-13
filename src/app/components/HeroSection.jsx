@@ -19,7 +19,7 @@ const HeroSection = () => {
           <motion.div initial= {{opacity: 0, scale:0.5}} 
           animate={{opacity:1, scale:1}}
           transition={{duration:0.5}}
-          className="col-span-8 place-self-center text-center-on-phone sm:text-left justify-self-start">
+          className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
               <h1 className= "text-[#ffffff] mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
                   <span className="text-transparent bg-clip-text bg-custom-gradient">Hello, I&apos;m {" "}
                   </span>
@@ -61,19 +61,19 @@ const HeroSection = () => {
           <motion.div initial= {{opacity: 0, scale:0.5}} 
               animate={{opacity:1, scale:1}}
               transition={{duration:0.5}} className="col-span-4 place-self-center mt-4 lg:mt-0">
-              <div className="rounded-full bg-[#18181800] w-[350px] h-[350px] lg:w-[500px] lg:h-[500px] relative mx-auto-on-phone">
+              <div className="rounded-full bg-[#18181800] w-[350px] h-[350px] lg:w-[500px] lg:h-[500px] relative">
                   <Image
                   src = "/images/AVATAR.png"
                   alt = "avatar"
-                  className="place-self-center absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  className="place-self-center absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
                   width = {500}
                   height = {500}
                   />
               </div>
               {/* Scroll Down Icon */}
               
-          <div className="flex justify-center-on-phone mt-3">
-            <button onClick={scrollToAboutMe} className="flex justify-center mb-40 p-2 rounded-full border-2 border-primary-text hover:bg-custom-gradient">
+          <div className="flex justify-center mt-3">
+            <button onClick={scrollToAboutMe} className=" flex justify-center mb-40 p-2 rounded-full border-2 border-primary-text hover:bg-custom-gradient">
               <ArrowDownCircleIcon className="h-14 w-14 text-primary-text hover:text-white cursor-pointer"/>
             </button>
           </div>
