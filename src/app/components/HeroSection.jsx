@@ -3,6 +3,14 @@ import React from 'react';
 import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
+import { ArrowDownCircleIcon } from "@heroicons/react/24/solid";
+import AboutMe from './AboutMe';
+
+
+const scrollToAboutMe = () => {
+    const aboutMeElement = document.getElementById('about');
+    aboutMeElement.scrollIntoView({ behavior: 'smooth' });
+  };
 
    
 
@@ -28,12 +36,8 @@ const HeroSection = () => {
         1000,
         'an UX Designer',
         1000,
-        'good with data',
+        'open to work',
         1000,
-        'in my 3rd year',
-        1000,
-        'in CO-OP',
-        1000
         
       ]}
       wrapper="span"
@@ -55,7 +59,7 @@ const HeroSection = () => {
         <motion.div initial= {{opacity: 0, scale:0.5}} 
             animate={{opacity:1, scale:1}}
             transition={{duration:0.5}} className="col-span-4 place-self-center mt-4 lg:mt-0">
-            <div className="rounded-full bg-[#18181800] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+            <div className="rounded-full bg-[#18181800] w-[350px] h-[350px] lg:w-[500px] lg:h-[500px] relative">
                 <Image
                 src = "/images/AVATAR.png"
                 alt = "avatar"
@@ -64,6 +68,13 @@ const HeroSection = () => {
                 height = {500}
                 />
             </div>
+            {/* Scroll Down Icon */}
+            
+        <div className="flex justify-center mt-3">
+          <button onClick={scrollToAboutMe} className=" flex justify-center mb-40 p-2 rounded-full border-2 border-primary-text hover:bg-custom-gradient">
+            <ArrowDownCircleIcon className="h-14 w-14 text-primary-text hover:text-white cursor-pointer"/>
+          </button>
+        </div>
         </motion.div>
     </div>
    </section>

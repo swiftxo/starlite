@@ -6,6 +6,17 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+html {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+html::-webkit-scrollbar {
+  width: 0px; /* For Chrome, Safari, and Opera */
+  background: transparent; /* Optional: just makes scrollbar fully transparent */
+}
+
+
 
 @media (prefers-color-scheme: dark) {
   :root {

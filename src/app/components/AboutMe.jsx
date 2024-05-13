@@ -1,5 +1,6 @@
 "use client";
 import React, { useTransition, useState } from "react";
+import { motion }   from "framer-motion"
 import Image from "next/image";
 import TabButton from "./TabButton";
 import EducationTab from "./EducationTab";
@@ -11,8 +12,7 @@ const TAB_INFO = [
         id: "skills",
         content:(
             <div>
-                <p>I am proficient in:</p>
-                <div className="flex flex-wrap justify-start items-center space-x-2 space-y-2">
+                <div className="flex flex-wrap justify-start mx-3">
                     <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C Badge" />
                     <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript Badge" />
                     <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java Badge" />
@@ -69,18 +69,22 @@ const AboutMe = () => {
         });
     };
     return <section className="text-white ">
-        <div className ="md:grid md:grid-cols-2 gap-8 align-items-start py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+        <motion.div initial= {{opacity: 0, scale:0.5}} 
+        animate={{opacity:1, scale:1}}
+        transition={{duration:0.5}} className ="md:grid md:grid-cols-2 gap-8 align-items-start py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
             <Image src = "/images/laptop.png" width = {600} height = {600} className="-mt-20" />
-            <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+            <div className="mt-5 md:mt-0 text-left flex flex-col h-full">
                 <h2 className="text-5xl font-bold text-white mb-4">About me</h2>
-                <p className = "text-[#4b6178] lg:text-lg">👋 Hey there! I'm Sohan, a third-year Computer Science student at Wilfrid Laurier University 
-                        with a focus on Big Data Systems and UX Design. 
-                        When I'm not coding or designing, you'll find me involved with MMA and other combat sports.
-                        I specialize in full stack development and AI. I love working with data in order to analyze and create visualizations. Creating compelling stories out of a sheet of numbers is what I love most!
-                        If you find any of projects interesting and would like to talk more, feel free to email me, add me on discord or connect with me on my LinkedIn!
+                <p className = "text-[#283a4d] lg:text-lg">
+                    👋 Hey there, I'm Sohan! Iam a third-year Computer Science student at Wilfrid Laurier University.
+                     I specialize in Full Stack Development and AI but I am also interested in Data Analysis & UX Design. 
+                     I am a huge fan of MMA and other combat sports! My favourite thing about coding is being able to build something about seemingly nothing. 
+                     Isn’t it weird how a bunch of words and numbers combined together somehow can make a functioning website like this? 
+                     I also love being able to create compelling stories out of raw data, as once more it’s fascinating how a sheet full of numbers can really tell you alot about a subject.  
+                     If you find any of my projects interesting and would like to talk more, feel free to email me, add me on discord or connect with me on my LinkedIn!
                 </p>
                 <div className="flex flex-row mt-8">
-                    <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>{" "} Skills</TabButton>
+                    <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>{" "} Technologies</TabButton>
                     <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>Education</TabButton>
                     <TabButton selectTab={() => handleTabChange("coursework")} active={tab === "coursework"}>Relevant Courses</TabButton>
                 </div>
@@ -88,7 +92,7 @@ const AboutMe = () => {
                     {TAB_INFO.find((t) => t.id ===tab).content}
                 </div>
             </div>
-        </div>
+        </motion.div>
     </section>
 };
 

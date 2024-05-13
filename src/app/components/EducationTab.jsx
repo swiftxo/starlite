@@ -9,7 +9,7 @@ const EducationTab = () => {
 
     return (
         <div className="education-tab overflow-auto">
-            <div className="education-details">
+            <div className="education-details text-[#283a4d]">
                 <p><strong>Wilfrid Laurier University, Waterloo ON</strong></p>
                 <p>B.Sc. in Computer Science, 2022 - 2026</p>
                 <p>Concentration: Big Data Systems | Minor: UX Design</p>
