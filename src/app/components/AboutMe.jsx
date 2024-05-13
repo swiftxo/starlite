@@ -48,11 +48,11 @@ const AboutMe = () => {
                 <div className="mt-5 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-5xl font-bold text-white mb-4">About me</h2>
                     <p className="text-[#283a4d] lg:text-lg">
-                        👋 Hey there, I'm Sohan! I am a third-year Computer Science student at Wilfrid Laurier University.
+                        👋 Hey there, I&apos;m Sohan! I am a third-year Computer Science student at Wilfrid Laurier University.
                         I specialize in Full Stack Development and AI but I am also interested in Data Analysis & UX Design. 
                         I am a huge fan of MMA and other combat sports! My favourite thing about coding is being able to build something from seemingly nothing.
-                        Isn't it weird how a bunch of words and numbers combined together can make a functioning website like this? 
-                        I also love being able to create compelling stories out of raw data, as once more it's fascinating how a sheet full of numbers can really tell you a lot about a subject.
+                        Isn&apos;t it weird how a bunch of words and numbers combined together can make a functioning website like this? 
+                        I also love being able to create compelling stories out of raw data, as once more it&apos;s fascinating how a sheet full of numbers can really tell you a lot about a subject.
                         If you find any of my projects interesting and would like to talk more, feel free to email me, add me on discord or connect with me on my LinkedIn!
                     </p>
                     <div className="flex flex-row mt-8">
