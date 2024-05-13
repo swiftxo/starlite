@@ -599,12 +599,6 @@ video {
     max-width: 1536px;
   }
 }
-.visible {
-  visibility: visible;
-}
-.invisible {
-  visibility: hidden;
-}
 .fixed {
   position: fixed;
 }
@@ -696,11 +690,11 @@ video {
 .mt-0 {
   margin-top: 0px;
 }
+.mt-10 {
+  margin-top: 2.5rem;
+}
 .mt-2 {
   margin-top: 0.5rem;
-}
-.mt-24 {
-  margin-top: 6rem;
 }
 .mt-3 {
   margin-top: 0.75rem;
@@ -713,9 +707,6 @@ video {
 }
 .mt-8 {
   margin-top: 2rem;
-}
-.mt-10 {
-  margin-top: 2.5rem;
 }
 .block {
   display: block;
@@ -1206,6 +1197,10 @@ html, body {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
 .group:hover .group-hover\:flex {
   display: flex;
 }
@@ -1321,24 +1316,8 @@ html, body {
     height: 500px;
   }
 
-  .lg\:h-\[400px\] {
-    height: 400px;
-  }
-
-  .lg\:h-\[350px\] {
-    height: 350px;
-  }
-
   .lg\:w-\[500px\] {
     width: 500px;
-  }
-
-  .lg\:w-\[400px\] {
-    width: 400px;
-  }
-
-  .lg\:w-\[350px\] {
-    width: 350px;
   }
 
   .lg\:px-8 {
@@ -1354,16 +1333,6 @@ html, body {
   .lg\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
-  }
-
-  .lg\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
-  .lg\:py-5 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
   }
 
   .lg\:text-8xl {
