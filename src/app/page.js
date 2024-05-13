@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-main-background bg-cover bg-fixed scroll-smooth">
       <Navbar />
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-16">
+      <div className="container mx-auto px-4 sm:px-6 py-4 lg:px-8 mt-16">
         <HeroSection />
 
         <div id="about">
