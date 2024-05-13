@@ -56,6 +56,77 @@ const TechTab = () => {
         <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">
           <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS Badge" />
         </a>
+        <a href="https://firebase.google.com/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase" alt="Firebase Badge" />
+        </a>
+        {/* MySQL */}
+        <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL Badge" />
+        </a>
+        {/* MongoDB */}
+        <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB Badge" />
+        </a>
+        {/* PostgreSQL */}
+        <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="Postgres Badge" />
+        </a>
+        {/* Figma */}
+        <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma Badge" />
+        </a>
+        {/* Canva */}
+        <a href="https://www.canva.com/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white" alt="Canva Badge" />
+        </a>
+        {/* NumPy */}
+        <a href="https://numpy.org/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy Badge" />
+        </a>
+        {/* pandas */}
+        <a href="https://pandas.pydata.org/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas Badge" />
+        </a>
+        {/* Matplotlib */}
+        <a href="https://matplotlib.org/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" alt="Matplotlib Badge" />
+        </a>
+        {/* GitHub */}
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge" />
+        </a>
+        {/* Git */}
+        <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git Badge" />
+        </a>
+        {/* PowerShell */}
+        <a href="https://docs.microsoft.com/en-us/powershell/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell Badge" />
+        </a>
+        {/* Windows Terminal */}
+        <a href="https://docs.microsoft.com/en-us/windows/terminal/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white" alt="Windows Terminal Badge" />
+        </a>
+        {/* C++ */}
+        <a href="https://devdocs.io/cpp/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++ Badge" />
+        </a>
+        {/* CSS3 */}
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge" />
+        </a>
+        {/* Adobe */}
+        <a href="https://www.adobe.com/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white" alt="Adobe Badge" />
+        </a>
+        {/* Flask */}
+        <a href="https://flask.palletsprojects.com/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white" alt="Flask Badge" />
+        </a>
+        {/* Prisma */}
+        <a href="https://www.prisma.io/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white" alt="Prisma Badge" />
+        </a>
       </div>
     </div>
   );

@@ -945,10 +945,6 @@ video {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
 }
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1164,7 +1160,11 @@ body {
   width: auto; /* Maintain aspect ratio */
   max-height: 100%; /* Ensure it doesn't exceed the navbar height */
 }
-
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 /* Ensure the navbar itself has a fixed height */
 .navbar {
   height: 50px; /* This should be adjusted based on your design needs */
@@ -1217,14 +1217,14 @@ body {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
-  .sm\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .sm\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .sm\:text-left {
@@ -1316,6 +1316,11 @@ body {
     width: 500px;
   }
 
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .lg\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -1324,11 +1329,6 @@ body {
   .lg\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
-  }
-
-  .lg\:px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
   }
 
   .lg\:text-8xl {
