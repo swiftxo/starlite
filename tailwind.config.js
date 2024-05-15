@@ -12,6 +12,7 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
                   'custom-gradient': 'linear-gradient(90deg, hsla(207, 27%, 44%, 1) 0%, hsla(230, 33%, 47%, 1) 100%)',
+                  'test-grad':'linear-gradient(90deg, hsla(223, 23%, 24%, 1) 0%, hsla(220, 25%, 46%, 1) 40%, hsla(219, 50%, 31%, 1) 62%, hsla(0, 0%, 21%, 1) 99%)',
 
       },
       colors: {

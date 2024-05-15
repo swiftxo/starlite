@@ -83,7 +83,7 @@ const EmailSection = () => {
                 </form>
                 {
                     emailSubmitted && (
-                        <p className="text-[#7aff65a2] text-xl font-bold mt-2">Email sent successfully!</p>
+                        <p className="text-primary-text text-2xl font-bold mt-2">Email sent successfully!</p>
                     )
                 }
             </div>

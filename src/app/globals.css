@@ -77,3 +77,15 @@ html, body {
     margin-right: auto;
   }
 }
+/* Custom styles for the vertical timeline line */
+.custom-line-thick .vertical-timeline::before {
+  background: #2196F3; /* Line color */
+  width: 10px; /* Line thickness */
+}
+
+.custom-date-class {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}

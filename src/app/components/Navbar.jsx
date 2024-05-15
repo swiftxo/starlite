@@ -10,6 +10,10 @@ const navLink = [
         path:"#about",
     },
     {
+        title:"Experience",
+        path:"#experience"
+    },
+    {
         title:"Projects",
         path:"#projects",
     },
@@ -17,6 +21,7 @@ const navLink = [
         title:"Contact",
         path:"#contact"
     },
+   
 ]
 
 
