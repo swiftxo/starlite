@@ -35,6 +35,8 @@ const HeroSection = () => {
           1000,
           'open to work',
           1000,
+          'unoriginal for this idea',
+          1000,
           
         ]}
         wrapper="span"
