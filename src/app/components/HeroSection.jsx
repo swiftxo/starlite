@@ -4,6 +4,7 @@ import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
 import { ArrowDownCircleIcon } from "@heroicons/react/24/solid";
+import Tilt from 'react-parallax-tilt';
 import AboutMe from './AboutMe';
 import Link from 'next/link';
 
@@ -64,13 +65,23 @@ const HeroSection = () => {
               animate={{opacity:1, scale:1}}
               transition={{duration:0.5}} className="col-span-4 place-self-center mt-4 lg:mt-0">
               <div className="rounded-full bg-[#18181800] w-[350px] h-[350px] lg:w-[500px] lg:h-[500px] relative">
-                  <Image
-                  src = "/images/AVATAR.png"
-                  alt = "avatar"
-                  className="place-self-center absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
-                  width = {500}
-                  height = {500}
-                  />
+                
+              <Tilt
+              className="w-[350px] h-[350px] lg:w-[500px] lg:h-[500px] flex justify-center items-center"
+              tiltMaxAngleX={15}
+              tiltMaxAngleY={15}
+              perspective={1000 }
+              transitionSpeed={100}
+            >
+              <Image
+                src="/images/AVATAR.png"
+                alt="avatar"
+                className="rounded-full"
+                width={500}
+                height={500}
+                objectFit="cover"
+              />
+            </Tilt>
               </div>
               {/* Scroll Down Icon */}
               
