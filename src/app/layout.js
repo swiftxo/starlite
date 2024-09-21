@@ -1,6 +1,12 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+import { Space_Mono } from "next/font/google";
+
+const spaceMono = Space_Mono({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+})
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {

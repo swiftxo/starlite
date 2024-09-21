@@ -16,6 +16,15 @@ html::-webkit-scrollbar {
   background: transparent; /* Optional: just makes scrollbar fully transparent */
 }
 
+.text-shadow {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  color: inherit; /* Light text to contrast the dark background */
+}
+
+.text-shadow-link {
+  color: inherit; /* Use this to keep the colors of the brand logos */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
 
 
 @media (prefers-color-scheme: dark) {
@@ -88,4 +97,36 @@ html, body {
   color: #ffffff;
   font-weight: bold;
   margin-bottom: 0.5rem;
+}
+
+.space-mono {
+  font-family: 'Space Mono', monospace;
+}
+
+/* Add this to your global CSS file */
+.highlight {
+  position: fixed;
+  width: 450px; /* Make it bigger */
+  height: 450px; /* Make it bigger */
+  background: rgba(173, 216, 230, 0.3); /* Light blue color with some transparency */
+  border-radius: 50%;
+  pointer-events: none;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+  transform: translate(-50%, -50%);
+  z-index: 1000; /* Ensure it is above other elements */
+  opacity: 0.7; /* Slightly visible */
+  filter: blur(20px); /* Add blur effect */
+}
+/* Magnifier effect */
+.magnifier {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid white;
+  pointer-events: none; /* Ensures the magnifier doesn't interfere with other elements */
+  z-index: 1000;
+  backdrop-filter: blur(3px) scale(1.5); /* Adds a blur and zoom effect */
+  overflow: hidden;
+  transform: translate(-50%, -50%); /* Centers the magnifier on the cursor */
 }
