@@ -11,9 +11,9 @@ const FooterSec = () => {
                   behavior: 'smooth' // Enable smooth scrolling
               });
           }} className="focus:outline-none">
-        <span className='cursive-text text-5xl text-[#2b3a4e]' >sohan.tech</span>
+         <img src="/sh.svg" alt="Logo" className="h-20 lg:h-25 w-auto " />
           </button>
-            <p className="text-secondary-text">Sohan Hossain 2024 all rights reserved.</p>
+            <p className="text-[#505050] font-body">Sohan Hossain 2024 all rights reserved.</p>
         </div>
     </footer>
   )

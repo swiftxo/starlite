@@ -29,7 +29,7 @@ const Navbar = () => {
     const [navbarOpen, setNavBarOpen] = useState(false);
 
   return (
-    <nav className="fixed mx-auto  border-custom-gradient top-0 left-0 right-0 z-10 bg-custom-gradient bg-opacity-100">
+    <nav className="fixed mx-auto  border-custom-gradient top-0 left-0 right-0 z-10 navbar-bg">
         <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
                     <button onClick={() => {
                 window.scrollTo({
@@ -37,7 +37,7 @@ const Navbar = () => {
                     behavior: 'smooth' // Enable smooth scrolling
                 });
             }} className="focus:outline-none">
-                <span className='cursive-text text-5xl text-[#bed9ff]'>sohan.tech</span>
+                <img src="/sh.svg" alt="Logo" className="h-20 lg:h-16 w-auto " />
             </button>
         <div className = "mobile-menu block md:hidden">
             {

@@ -3,8 +3,8 @@ import React from 'react';
 const ProjectTag = ({ name, onClick, isSelected }) => {
     // Define classes for both selected and unselected states.
     const buttonStyles = isSelected
-        ? "bg-custom-gradient hover:bg-slate-800 text-white hover:text-white font-bold border-transparent"
-        : "bg-main-background hover:bg-custom-gradient text-primary-text hover:text-white font-bold border-slate-400 hover:border-transparent";
+        ? "hover:bg-[#242424] font-body text-white hover:text-white font-bold "
+        : "bg-[#242424] hover:bg-[#cccccc] font-body text-white hover:text-[#242424] font-bold border-[#242424] hover:border-transparent";
 
     return (
         <button 

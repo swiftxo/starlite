@@ -1,4 +1,4 @@
-// File: /Users/sohanhossain/starlite/src/app/layout.js
+// File: C:\Users\hossa\OneDrive\Documents\Projects\V1.5\starlite\src\app\layout.js
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

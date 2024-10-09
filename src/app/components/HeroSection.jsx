@@ -7,91 +7,61 @@ import { ArrowDownCircleIcon } from "@heroicons/react/24/solid";
 import Tilt from 'react-parallax-tilt';
 import AboutMe from './AboutMe';
 import Link from 'next/link';
+import '../globals.css';
+import TextSwap from 'react-text-swap';
 
 const scrollToAboutMe = () => {
-    const aboutMeElement = document.getElementById('about');
-    aboutMeElement.scrollIntoView({ behavior: 'smooth' });
+  const aboutMeElement = document.getElementById('about');
+  aboutMeElement.scrollIntoView({ behavior: 'smooth' });
 };
 
 const HeroSection = () => {
   return (
-    <section className="lg:py-16">
-      <div className="grid grid-cols-1 sm:grid-cols-12">
-          <motion.div initial= {{opacity: 0, scale:0.5}} 
-          animate={{opacity:1, scale:1}}
-          transition={{duration:0.5}}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
-              <h1 className= "text-[#ffffff] mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-                  <span className="text-transparent bg-clip-text bg-custom-gradient">Hello, I&apos;m {" "}
-                  </span>
-                  <br></br>
-                  <TypeAnimation
-        sequence={[
-          // Same substring at the start will only be typed out once, initially
-          'Sohan',
-          1000, // wait 1s before replacing "Mice" with "Hamsters"
-          'a Full Stack Dev',
-          1000,
-          'an UX Designer',
-          1000,
-          'open to work',
-          1000,
-          'unoriginal for this idea',
-          1000,
-          
-        ]}
-        wrapper="span"
-        speed={50}
-        repeat={Infinity}
-      />
-              </h1>
-              <div>
-              <Link href="mailto:hoss1529@mylaurier.ca"target="_blank">
-                  <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-custom-gradient hover:bg-slate-200 text-[#ffffff] font-bold">
-                      Hire me
-                  </button>
-                  </Link>
-                  <Link href="https://drive.google.com/file/d/12TdLTtjtZ3eAIWa5UKwscOvxx-jeAlJc/view?usp=sharing"target="_blank">
-                  <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4  bg-custom-gradient  hover:bg-slate-800 text-primary-text hover:text-white font-bold mt-3">
-                  
-                      <span className = "block bg-main-background hover:bg-custom-gradient rounded-full px-5 py-2">
-                          Download CV
-                      </span>
-                  </button>
-                  </Link>
-              </div>
-          </motion.div>
-          <motion.div initial= {{opacity: 0, scale:0.5}} 
-              animate={{opacity:1, scale:1}}
-              transition={{duration:0.5}} className="col-span-4 place-self-center mt-4 lg:mt-0">
-              <div className="rounded-full bg-[#18181800] w-[350px] h-[350px] lg:w-[500px] lg:h-[500px] relative">
-                
-              <Tilt
-              className="w-[350px] h-[350px] lg:w-[500px] lg:h-[500px] flex justify-center items-center"
-              tiltMaxAngleX={15}
-              tiltMaxAngleY={15}
-              perspective={1000 }
-              transitionSpeed={100}
-            >
-              <Image
-                src="/images/AVATAR.png"
-                alt="avatar"
-                className="rounded-full"
-                width={500}
-                height={500}
-                objectFit="cover"
+    <section className="lg:py-13">
+
+      <motion.div initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+        className="place-self-center text-center sm:text-left justify-self-start ">
+        <div className="text-[#ffffff] mb-4 text-1xl sm:text-2xl lg:text-5xl lg:leading-normal font-body">
+          <span>Hey there, my name is: </span>
+          <h1 className="lg:-ml-3 lg:-mt-6 lg:-my-6  text-4xl sm:text-6xl lg:text-9xl lg:leading-normal font-header">Sohan Hossain</h1>
+          <span className="text-1xl sm:text-1xl lg:text-5xl lg:leading-normal font-body">
+            And I am:&nbsp;
+            <span className="italic">
+              <TextSwap
+                strings={[
+                  "Growing into a versatile software engineer.",
+                  "Transforming ideas into immersive designs.",
+                  "Blending creativity and precision into all my work.",
+                  "Continuously learning and refining my craft.",
+                  "A firm believer in removing barriers to knowledge."
+                ]}
+                animationType='slideDown'
+                seconds={3}
               />
-            </Tilt>
-              </div>
-              {/* Scroll Down Icon */}
-              
-          <div className="flex justify-center mt-3">
-            <button onClick={scrollToAboutMe} className=" flex justify-center mb-40 p-2 rounded-full border-2 border-primary-text hover:bg-custom-gradient">
-              <ArrowDownCircleIcon className="h-14 w-14 text-primary-text hover:text-white cursor-pointer"/>
-            </button>
-          </div>
-          </motion.div>
-      </div>
+            </span>
+          </span>
+
+        </div>
+        <div>
+          
+         
+        </div>
+      </motion.div>
+      <motion.div initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }} className="place-self-center mt-4 lg:mt-0">
+
+        {/* Scroll Down Icon */}
+
+        <div className="flex justify-center mt-3">
+          <button onClick={scrollToAboutMe} className=" flex justify-center mb-40 p-2 rounded-full border-2 border-white hover:bg-[#AEAEAE]">
+            <ArrowDownCircleIcon className="h-14 w-14 text-white hover:text-white cursor-pointer" />
+          </button>
+        </div>
+      </motion.div>
+
     </section>
   );
 };
