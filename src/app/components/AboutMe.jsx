@@ -44,7 +44,7 @@ const AboutMe = () => {
                 <div id="experience">
                     <ExperienceTimeline />
                 </div>                <div className="mt-5 md:mt-0 text-left flex flex-col h-full">
-                    <h2 className="text-5xl font-bold text-white mb-4">About me</h2>
+                    <h2 className="text-5xl font-header text-white mb-4">About me</h2>
                     <p className="text-[#CCCCCC] lg:text-lg font-body">
                         Hi, I am <span className="text-white">Sohan</span>, and I&apos;m currently working my first co-op as a <span className="text-white">Technical Systems Analyst </span>
                         at <span className="text-white"> RBC</span>, where I am working on <span className="text-white">mainframe systems</span>.
