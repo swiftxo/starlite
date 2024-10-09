@@ -29,7 +29,7 @@ const Navbar = () => {
     const [navbarOpen, setNavBarOpen] = useState(false);
 
   return (
-    <nav className="fixed mx-auto  border-custom-gradient top-0 left-0 right-0 z-10 navbar-bg">
+    <nav className="fixed mx-auto  border-white top-0 left-0 right-0 z-10 navbar-bg">
         <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
                     <button onClick={() => {
                 window.scrollTo({

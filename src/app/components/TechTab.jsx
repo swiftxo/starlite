@@ -19,7 +19,7 @@ const TechTab = () => {
   return (
     <div className="mx-3">
       <p className="font-body mb-4">Recently, I&apos;ve been working a lot with:</p>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
         {technologies.map((tech, index) => (
           <div key={index} className="flex items-center space-x-2">
             {/* Bullet point icon */}
