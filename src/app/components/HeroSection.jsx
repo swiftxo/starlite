@@ -26,16 +26,16 @@ const HeroSection = () => {
         <div className="text-[#ffffff] mb-4 text-1xl sm:text-2xl lg:text-5xl lg:leading-normal font-body">
           <span>Hey there, my name is: </span>
           <h1 className="lg:-ml-3 lg:-mt-6 lg:-my-6  text-4xl sm:text-6xl lg:text-9xl lg:leading-normal font-header">Sohan Hossain</h1>
-          <span className="text-1xl sm:text-1xl lg:text-5xl lg:leading-normal font-body">
+          <span className="text-xs md:text-xl lg:text-3xl lg:leading-normal font-body">
             And I am:&nbsp;
-            <span className="italic">
+            <span className="italic  text-xs  md:text-xl lg:text-3xl lg:leading-normal font-body">
               <TextSwap
                 strings={[
                   "Growing into a versatile software engineer.",
                   "Transforming ideas into immersive designs.",
-                  "Blending creativity and precision into all my work.",
+                  "Blending creativity and precision into my work.",
                   "Continuously learning and refining my craft.",
-                  "A firm believer in removing barriers to knowledge."
+                  "A believer in  removing barriers to knowledge."
                 ]}
                 animationType='slideDown'
                 seconds={3}
